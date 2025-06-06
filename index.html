@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./javascript/script.js" defer></script>
+    <title>Landing Page Saudável</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <i class="fa-solid fa-carrot" id="nav-logo">Nutri|Inteligente</i>
+        <ul class="navbar-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <button id="mobile-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+      <div id="mobile-menu">
+        <ul class="mobile-navbar-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="container">
+      <div class="content">
+        <h1>
+          Transforme sua <span>saúde</span> com alimentação de
+          <span>verdade</span>!
+        </h1>
+        <p>Receitas, planos e dicas que cabem no seu dia a dia.</p>
+        <button class="btn-folder">Comece agora</button>
+      </div>
+      <div class="folder">
+        <img src="./img/nutricionista.png" alt="folder" />
+      </div>
+    </section>
+
+    <section class="benefits">
+      <h2>Por que escolher nosso plano?</h2>
+      <div class="benefit-list">
+        <div class="benefit-item">✔ Planos personalizados</div>
+        <div class="benefit-item">✔ Suporte com nutricionista</div>
+        <div class="benefit-item">✔ Receitas práticas</div>
+        <div class="benefit-item">✔ Resultados reais</div>
+      </div>
+    </section>
+
+    <section class="recipes">
+      <h2>Receitas Saudáveis</h2>
+      <div class="recipe-cards">
+        <div class="card">Guacamole com torradas</div>
+        <div class="card">Frango grelhado com legumes</div>
+        <div class="card">Salada de quinoa</div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h2>Histórias de sucesso</h2>
+      <div class="container-testimonial">
+        <div class="testimonial">
+          <p>
+            “Em apenas 2 meses perdi 6kg comendo de forma saudável e prática!”
+          </p>
+          <span>— Ana, 29 anos</span>
+        </div>
+        <div class="testimonial">
+          <p>“Perdi 10kg com dieta prática e saborosa!”</p>
+          <span>— Paulo, 45 anos</span>
+        </div>
+        <div class="testimonial">
+          <p>“Nunca imaginei que fazer dieta seria tão suave!”</p>
+          <span>— Luiza, 18 anos</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-social">
+          <h3>Siga-nos</h3>
+          <a
+            href="#"
+            aria-label="Instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+            >📸 Instagram</a
+          >
+          <a
+            href="#"
+            aria-label="Facebook"
+            target="_blank"
+            rel="noopener noreferrer"
+            >📘 Facebook</a
+          >
+          <a
+            href="#"
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+            >🔗 LinkedIn</a
+          >
+        </div>
+
+        <div class="footer-newsletter">
+          <h3>Newsletter</h3>
+          <form id="newsletter-form" action="#" method="post">
+            <input type="email" placeholder="Seu email" required />
+            <button type="submit">Assinar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-copy">
+        <p>&copy; 2025 Nutri|Inteligente. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
